@@ -10,16 +10,10 @@ Revisium leverages the power of JSON schemas and the concepts of version control
 
 https://github.com/user-attachments/assets/216a9397-ff23-4ff6-bf1a-e39ba22cbaac
 
-## Getting Started
-
-### Online demo (alpha)
+## Online demo (alpha)
 
 - https://cloud.revisium.io/
 
-### Running Revisium with Docker or Docker Dompose
+## Running Revisium with Docker or Docker Dompose
 
-https://github.com/revisium/revisium
-
-## License
-
-This project is licensed under the [Apache License 2.0](./LICENSE).
+- https://github.com/revisium/revisium
