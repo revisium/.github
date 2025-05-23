@@ -16,4 +16,4 @@ https://github.com/user-attachments/assets/216a9397-ff23-4ff6-bf1a-e39ba22cbaac
 
 ## Running Revisium with Docker or Docker Dompose
 
-- https://github.com/revisium/revisium
+- [docker-compose.yml](https://github.com/revisium/revisium/blob/master/docker-compose.yml)
