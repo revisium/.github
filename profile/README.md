@@ -1,19 +1,28 @@
+<div align="center">
+
 # Revisium
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+Unopinionated data platform with referential integrity.
 
-Revisium is a tool (UI/API) inspired by JSON (JSON Schema) and Git, designed to provide a flexible and low-level headless CMS solution. **This project originated from a closed-source repository** where it was developed over the course of a year and a half as a proof of concept. I am now making it open source to foster community involvement, transparency, and collaborative improvement.
+**Your schema. Your data. Full control.**
 
-## About
+<img width="1216" height="764" alt="Revisium Admin UI" src="https://github.com/user-attachments/assets/536b9c1b-bab8-40c4-a0ba-3620601e105b" />
 
-Revisium leverages the power of JSON schemas and the concepts of version control systems similar to Git to offer a robust framework for content management. Whether you're building a simple website or a complex application, Revisium can serve as the backbone for your content infrastructure, allowing for seamless integration and customization.
+</div>
 
-https://github.com/user-attachments/assets/216a9397-ff23-4ff6-bf1a-e39ba22cbaac
+JSON Schema flexibility + Foreign Keys reliability. Git-like versioning with branches, revisions, and drafts. Auto-generated GraphQL + REST APIs. Built-in Admin UI for schema design, data management, and change review.
 
-## Online demo (alpha)
+**Quick start:** `npx @revisium/standalone@latest` or try [cloud.revisium.io](https://cloud.revisium.io)
 
-- https://cloud.revisium.io/
+### Ecosystem
 
-## Running Revisium with Docker or Docker Dompose
+| | Package | Description |
+|---|---------|-------------|
+| | [revisium](https://github.com/revisium/revisium) | All-in-one self-hosted deployment |
+| | [@revisium/core](https://github.com/revisium/revisium-core) | Backend API — GraphQL, REST, MCP |
+| | [@revisium/admin](https://github.com/revisium/revisium-admin) | Web UI — schema editor, diff viewer, table views |
+| | [@revisium/endpoint](https://github.com/revisium/revisium-endpoint) | Auto-generated typed GraphQL + REST APIs |
+| | [@revisium/mcp-memory](https://github.com/revisium/mcp-memory) | MCP server for AI agent memory |
+| | [revisium-cli](https://github.com/revisium/revisium-cli) | Schema migration CLI |
 
-- [docker-compose.yml](https://github.com/revisium/revisium/blob/master/docker-compose.yml)
+[Website](https://revisium.io) · [Cloud](https://cloud.revisium.io) · [Documentation](https://docs.revisium.io)
